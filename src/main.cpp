@@ -81,7 +81,7 @@ extern "C"
 {
   int _write(int file, char *ptr, int len)
   {
-    (void)file; // 忽略 file 参数
+    (void)file;
     Serial1.write(ptr, len);
     return len;
   }
