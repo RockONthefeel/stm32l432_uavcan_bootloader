@@ -1,0 +1,49 @@
+{
+  "MicroPython.executeButton": [
+    {
+      "text": "▶",
+      "tooltip": "运行",
+      "alignment": "left",
+      "command": "extension.executeFile",
+      "priority": 3.5
+    }
+  ],
+  "MicroPython.syncButton": [
+    {
+      "text": "$(sync)",
+      "tooltip": "同步",
+      "alignment": "left",
+      "command": "extension.execute",
+      "priority": 4
+    }
+  ],
+  "files.associations": {
+    "stm32l4xx.h": "c",
+    "*.tcc": "cpp",
+    "exception": "cpp",
+    "memory_resource": "cpp",
+    "iosfwd": "cpp",
+    "new": "cpp",
+    "ostream": "cpp",
+    "streambuf": "cpp",
+    "canard.h": "c",
+    "types.h": "c",
+    "random": "c",
+    "uavcan.protocol.param.empty.h": "c",
+    "system_error": "c",
+    "array": "c",
+    "functional": "c",
+    "tuple": "c",
+    "type_traits": "c",
+    "utility": "c",
+    "string_view": "c",
+    "dronecan_msgs.h": "c",
+    "arduino.h": "c",
+    "stm32l4xx_hal.h": "c",
+    "iap_node.h": "c",
+    "canard_stm32.h": "c",
+    "uavcan.protocol.debug.logmessage.h": "c",
+    "string": "c"
+  },
+  "cmake.sourceDirectory": "/home/drizzt/Workspace/STM32/stm32l432_uavcan_iap/lib/libcanard"
+}
